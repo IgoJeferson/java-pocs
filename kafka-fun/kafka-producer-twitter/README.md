@@ -1,5 +1,9 @@
 # Kafka Producer Twitter
 
+<p align="center">
+  <img alt="Project Goals" src=".github/project-goals.png" width="100%">
+</p>
+
 ## Setup 
 
 1. Download and Setup Java 8 JDK:
