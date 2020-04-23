@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c5bdd8c-e2e9-45ac-84d5-105de565a622" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../kafka-basics/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/kafka-architecture-core-kafka.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Apache Kafka.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/6.2.2/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka-basics/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ConsumerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ConsumerDemoAssignSeek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ConsumerDemoGroups.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ConsumerDemoWithThreads.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ProducerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ProducerDemoKeys.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka-basics/src/main/java/com/github/kafka/basics/ProducerDemoWithCallback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/project-goals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/jeferson/kafka/TwitterProducer.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kafka-producer-twitter" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1arl3yuaVY8jnzKXIQYyXdbdZz8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.github" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="TWITTER_CONSUMER_KEY" value="tLhEHOHFxMn2shSvOoHnn1xki" />
+        <env name="TWITTER_CONSUMER_SECRET" value="oHegczntM4SPnDDo7ynw8IU8GaeIqBPa2X2nFyyAvJEzY3CXNk" />
+        <env name="TWITTER_ACCESS_TOKEN" value="887052053851373570-iNQwLVbLSw6hp57aE6wjvWzFM6vEKb1" />
+        <env name="TWITTER_ACCESS_TOKEN_SECRET" value="DnKAiiHD58ws8AM93Xm1H6SZjPGO5dBeV9Zleq95DxIoB" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.github.jeferson.kafka.TwitterProducer" />
+      <module name="kafka-producer-twitter.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.jeferson.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwitterProducer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c5bdd8c-e2e9-45ac-84d5-105de565a622" name="Default Changelist" comment="" />
+      <created>1587501397975</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587501397975</updated>
+      <workItem from="1587501400024" duration="6252000" />
+      <workItem from="1587601380361" duration="897000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1809" y="335" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587507157210">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1809" y="335" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507157210" />
+    <state x="2134" y="245" width="374" height="596" key="#com.intellij.ide.util.MemberChooser" timestamp="1587502888642">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2134" y="245" width="374" height="596" key="#com.intellij.ide.util.MemberChooser/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587502888642" />
+    <state x="2088" y="410" width="515" height="541" key="EnvironmentVariablesDialog" timestamp="1587507155908">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2088" y="410" width="515" height="541" key="EnvironmentVariablesDialog/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507155908" />
+    <state width="1870" height="322" key="GridCell.Tab.0.bottom" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.0.bottom/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.0.center" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.0.center/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.0.left" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.0.left/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.0.right" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.0.right/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.1.bottom" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.1.bottom/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.1.center" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.1.center/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.1.left" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.1.left/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state width="1870" height="322" key="GridCell.Tab.1.right" timestamp="1587556133919">
+      <screen x="0" y="27" width="1366" height="701" />
+    </state>
+    <state width="1870" height="322" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1920.1080@0.27.1366.701" timestamp="1587556133919" />
+    <state width="1870" height="322" key="GridCell.Tab.1.right/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507161476" />
+    <state x="1979" y="158" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587507845718">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1979" y="158" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.701/1366.0.1920.1080@1366.0.1920.1080" timestamp="1587507845718" />
+  </component>
+</project>
