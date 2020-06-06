@@ -7,7 +7,7 @@ import io.cucumber.java.en.When;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 
-public class StepDefinitions {
+public class HearShoutTest {
 
     private Person lucy;
     private Person sean;
