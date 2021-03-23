@@ -1,0 +1,46 @@
+HELP.md
+
+!gradle/wrapper/gradle-wrapper.jar
+!src/main/java
+!**/src/test/**
+.idea/
+
+
+### Gradle ###
+.gradle
+build/
+**build/
+
+### Gradle Patch ###README.md
+**/build/
+**/out/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+.pgdata/
+bin/
