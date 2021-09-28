@@ -4,7 +4,6 @@ MDB File means Microsoft Access database
 
 in this code snippet, an example of how to do basic operations by querying mdb file follows
 
-
 # Content of the file MDB
 
 | A  | B    | C  |
@@ -13,6 +12,17 @@ in this code snippet, an example of how to do basic operations by querying mdb f
 | 1  | a       | aa1        |
 | 2  | b       | aa2        |
 | 3  | c       | aa3        |
+
+## How to run
+
+```
+./mvnw clean install
+```
+
+```
+./mvnw compile exec:java -Dexec.mainClass="com.github.igojeferson.example.MSAccessJavaApplication"
+```
+
 
 
 # Used UCanAccess
