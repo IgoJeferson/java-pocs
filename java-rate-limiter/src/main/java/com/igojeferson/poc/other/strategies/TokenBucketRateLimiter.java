@@ -1,4 +1,4 @@
-package com.igojeferson.poc;
+package com.igojeferson.poc.other.strategies;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.igojeferson.poc;
+package com.igojeferson.poc.other.strategies;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
