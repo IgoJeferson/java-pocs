@@ -1,38 +1,44 @@
 package com.igojeferson.poc;
 
-import java.util.*;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.TimeUnit;
 
 public class RateLimiter {
-    
-    private final int MAX_REQUESTS_PER_SECOND = 10;
-    private final long ONE_SECOND_IN_MILLIS = 1000;
+    private static final long MAX_REQUESTS_PER_WINDOW = 10; // 10 requests allowed per window
 
-    // Map to track the requests per user
-    private ConcurrentHashMap<String, List<Long>> userRequestMap;
+    // Stores the count of requests per userId and their last window start time
+    private final Map<String, UserRequestInfo> userRequestMap = new ConcurrentHashMap<>();
 
-    public RateLimiter() {
-        this.userRequestMap = new ConcurrentHashMap<>();
-    }
-
-    // Entry point for rate limiting check
+    // Entry point method to check if a request is allowed
     public boolean isAllowed(String userId) {
-        long currentTime = System.currentTimeMillis();
+        long currentTimeInSeconds = TimeUnit.MILLISECONDS.toSeconds(System.currentTimeMillis());
 
-        // Get the user's request history, or create a new one if it doesn't exist
-        userRequestMap.putIfAbsent(userId, new ArrayList<>());
-        List<Long> requestTimestamps = userRequestMap.get(userId);
+        // Get or create user request information
+        userRequestMap.computeIfAbsent(userId, k -> new UserRequestInfo(currentTimeInSeconds, 0));
 
-        // Remove expired timestamps that are outside of the 1-second window
-        requestTimestamps.removeIf(timestamp -> (currentTime - timestamp) >= ONE_SECOND_IN_MILLIS);
+        UserRequestInfo userInfo = userRequestMap.get(userId);
 
-        // Check if the number of requests in the current window exceeds the limit
-        if (requestTimestamps.size() < MAX_REQUESTS_PER_SECOND) {
-            // Add the current request's timestamp
-            requestTimestamps.add(currentTime);
-            return true;
-        } else {
-            return false; // Deny request if over the limit
+        synchronized (userInfo) {
+            // Check if we're in the same window or a new one
+            if (userInfo.windowStartTime == currentTimeInSeconds) {
+                // Same window, check request count
+                if (userInfo.requestCount < MAX_REQUESTS_PER_WINDOW) {
+                    userInfo.requestCount++;
+                    return true;
+                } else {
+                    // Rate limit exceeded
+                    return false;
+                }
+            } else {
+                // New window, reset request count
+                userInfo.windowStartTime = currentTimeInSeconds;
+                userInfo.requestCount = 1;
+                return true;
+            }
         }
     }
+
+
+
 }
