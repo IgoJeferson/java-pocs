@@ -39,7 +39,7 @@ public class ConditionalExecutionDemo {
     }
 
     @Test
-    @EnabledOnJre({ JAVA_17, JAVA_21 })
+    @EnabledOnJre({JAVA_17, JAVA_21})
     void onJava17And21() {
         // ...
     }
@@ -84,5 +84,58 @@ public class ConditionalExecutionDemo {
     @DisabledForJreRange(max = JAVA_11)
     void notFromJava8To11() {
         // ...
+    }
+
+    @Test
+    @EnabledInNativeImage
+    void onlyWithinNativeImage() {
+        // ...
+    }
+
+    @Test
+    @DisabledInNativeImage
+    void neverWithinNativeImage() {
+        // ...
+    }
+
+    @Test
+    @EnabledIfSystemProperty(named = "os.arch", matches = ".*64.*")
+    void onlyOn64BitArchitectures() {
+        // ...
+    }
+
+    @Test
+    @DisabledIfSystemProperty(named = "ci-server", matches = "true")
+    void notOnCiServer() {
+        // ...
+    }
+
+    // Environment Variable Conditions
+    @Test
+    @EnabledIfEnvironmentVariable(named = "ENV", matches = "staging-server")
+    void onlyOnStagingServer() {
+        // ...
+    }
+
+    @Test
+    @DisabledIfEnvironmentVariable(named = "ENV", matches = ".*development.*")
+    void notOnDeveloperWorkstation() {
+        // ...
+    }
+
+    @Test
+    @EnabledIf("customCondition")
+    void enabled() {
+        // ...
+    }
+
+    @Test
+    @DisabledIf("customCondition")
+    void disabled() {
+        // ...
+    }
+
+    boolean customCondition() {
+        return true;
     }
 }
